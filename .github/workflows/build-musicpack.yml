@@ -1,4 +1,4 @@
-name: Stellarity-Music
+name: Build Musicpack
 on:
   workflow_dispatch:
   push:
@@ -14,10 +14,11 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/upload-artifact@v4
       with:
-        name: Stellarity-Music-Addon
+        name: Stellarity (Beeper_OS Fork) - Musicpack Only
         path: |
           music_pack/assets/
           music_pack/pack.png
           music_pack/pack.mcmeta
+          LICENSE
         retention-days: 7
         compression-level: 9

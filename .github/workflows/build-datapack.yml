@@ -1,4 +1,4 @@
-name: Stellarity-DP-DEV
+name: Build Datapack
 on:
   workflow_dispatch:
   push:
@@ -14,7 +14,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/upload-artifact@v4
       with:
-        name: Stellarity-DP-DEV
+        name: Stellarity (Beeper_OS Fork) - Datapack Only
         path: |
           data/
           pack.mcmeta
