@@ -1,5 +1,6 @@
 name: Stellarity-ResourcePack
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
