@@ -151,7 +151,6 @@ team remove stellarity.rave_glow
 team remove stellarity.phantom_glow
 team remove stellarity.eol.night_glow
 team remove stellarity.eol.day_glow
-team remove stellarity.dragons_eye.pacified
 
 bossbar remove stellarity:crystal_count
 bossbar remove stellarity:eol

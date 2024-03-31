@@ -8,10 +8,6 @@ effect clear @s[tag=stellarity.perm_buffs.cleansing_potato] poison
 # Crest of The End
 execute if entity @s[scores={stellarity.items.crest.time=1..}] run function stellarity:items/crest_of_the_end/countdown
 
-# Dragon's Eye
-execute if entity @s[predicate=stellarity:items/holding/trinkets/dragons_eye] run function stellarity:items/dragons_eye/main
-execute if entity @s[tag=stellarity.items.dragons_eye.holding,predicate=!stellarity:items/holding/trinkets/dragons_eye] run function stellarity:items/dragons_eye/remove_from_team
-
 # Cooldowns
 execute if entity @s[scores={stellarity.items.spirit_dagger.effects_duration=1..}] run function stellarity:items/spirit_dagger/effects/reset/tick
 execute if entity @s[scores={stellarity.items.tamaris.execute_cooldown=1..}] run function stellarity:items/tamaris/execute/cooldown_countdown

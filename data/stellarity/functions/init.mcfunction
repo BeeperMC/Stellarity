@@ -213,11 +213,6 @@ team modify stellarity.eol.night_glow color light_purple
 team add stellarity.eol.day_glow
 team modify stellarity.eol.day_glow color yellow
 
-team add stellarity.dragons_eye.pacified
-team modify stellarity.dragons_eye.pacified friendlyFire true
-team modify stellarity.dragons_eye.pacified seeFriendlyInvisibles false
-team modify stellarity.dragons_eye.pacified collisionRule pushOtherTeams
-
 team add stellarity.dragon.pacify_others
 team modify stellarity.dragon.pacify_others friendlyFire false
 
