@@ -4,4 +4,4 @@ Forked version of [Stellarity](<https://github.com/kohy-creates/Stellarity>) wit
 modifications for the Beeper_OS Vanilla+ server.
 
 All modifications are done in the `overlay_beeperos` folder, which is overlayed
-onto pack versions 18 to 26 (1.20.2 - 1.20.4).
+onto pack versions `18` to `26` (Minecraft 1.20.2-4).
