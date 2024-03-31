@@ -2,7 +2,7 @@ name: Stellarity-DP-DEV
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'data/**'
 

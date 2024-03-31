@@ -2,7 +2,7 @@ name: Stellarity-Music
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'music_pack/**'
 
