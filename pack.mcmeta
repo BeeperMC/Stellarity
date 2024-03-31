@@ -7,11 +7,12 @@
 		},
 		"description": [
 			{
-				"text": "This ender expansion is kinda beyond hardcore :drum:",
+				"text": "Stellarity Fork by flerouwu",
 				"color": "#CB4BFF"
 			},
+			"\n",
 			{
-				"text": "Forked by flerouwu for Beeper_OS",
+				"text": "Modified for Beeper_OS",
 				"color": "aqua",
 				"italic": true
 			}

@@ -3,8 +3,13 @@
 		"pack_format": 22,
 		"description": [
 			{
+				"text": "Stellarity Fork by flerouwu",
+				"color": "#CB4BFF"
+			},
+			"\n",
+			{
 				"translate": "stellarity.pack_mcmeta.rp.music",
-				"fallback": "Music addon for Stellarity",
+				"fallback": "Music addon",
 				"color": "#CB4BFF"
 			},
 			" ",
