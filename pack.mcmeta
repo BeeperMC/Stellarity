@@ -9,6 +9,11 @@
 			{
 				"text": "This ender expansion is kinda beyond hardcore :drum:",
 				"color": "#CB4BFF"
+			},
+			{
+				"text": "Forked by flerouwu for Beeper_OS",
+				"color": "aqua",
+				"italic": true
 			}
 		]
 	},
@@ -17,6 +22,10 @@
 			{
 				"formats": 18,
 				"directory": "overlay_1_20_2"
+			},
+			{
+				"formats": [18, 26],
+				"directory": "overlay_beeperos"
 			}
 		]
 	}

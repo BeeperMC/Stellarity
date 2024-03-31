@@ -1,4 +1,5 @@
 tellraw @s [{"text":"Stellarity","color":"#f100f1"}," ",{"text":"Configuration","color":"white"}]
+tellraw @s {"text":"Forked by flerouwu for Beeper_OS","color":"aqua"}
 
 tellraw @s [\
 	"\n",\
