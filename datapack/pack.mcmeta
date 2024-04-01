@@ -23,10 +23,6 @@
 			{
 				"formats": 18,
 				"directory": "overlay_1_20_2"
-			},
-			{
-				"formats": [18, 26],
-				"directory": "overlay_beeperos"
 			}
 		]
 	}
