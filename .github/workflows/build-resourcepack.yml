@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'resource_pack/**'
+      - 'resourcepack/**'
 
 jobs:
   build:
@@ -14,11 +14,8 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/upload-artifact@v4
       with:
-        name: Stellarity (Beeper_OS Fork) - Resourcepack Only
+        name: Stellarity (Beeper_OS Fork) - Resourcepack
         path: |
-          resource_pack/assets/
-          resource_pack/pack.png
-          resource_pack/pack.mcmeta
-          LICENSE
+          resourcepack/
         retention-days: 7
         compression-level: 9

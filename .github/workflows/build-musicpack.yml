@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'music_pack/**'
+      - 'musicpack/**'
 
 jobs:
   build:
@@ -14,11 +14,8 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/upload-artifact@v4
       with:
-        name: Stellarity (Beeper_OS Fork) - Musicpack Only
+        name: Stellarity (Beeper_OS Fork) - Musicpack
         path: |
-          music_pack/assets/
-          music_pack/pack.png
-          music_pack/pack.mcmeta
-          LICENSE
+          musicpack/
         retention-days: 7
         compression-level: 9

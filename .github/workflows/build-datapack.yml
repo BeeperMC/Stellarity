@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'data/**'
+      - 'datapack/**'
 
 jobs:
   build:
@@ -14,14 +14,8 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/upload-artifact@v4
       with:
-        name: Stellarity (Beeper_OS Fork) - Datapack Only
+        name: Stellarity (Beeper_OS Fork) - Datapack
         path: |
-          data/
-          overlay_1_20_2/
-          overlay_beeperos/
-
-          pack.mcmeta
-          pack.png
-          LICENSE
+          datapack/
         retention-days: 7
         compression-level: 9
