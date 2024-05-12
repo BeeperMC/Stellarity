@@ -33,10 +33,10 @@ execute if biome ~ ~ ~ far_end:void run \
 
 execute if biome ~ ~ ~ far_end:flesh_tundra run \
 	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1.8,Particle:"instant_effect",Tags:["stellarity.void_fishing_aec"],Duration:2147483647}
+	{Radius:1.8,Particle:"crit",Tags:["stellarity.void_fishing_aec"],Duration:2147483647}
 execute if biome ~ ~ ~ stellarity:frosted_hills run \
 	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1.8,Particle:"instant_effect",Tags:["stellarity.void_fishing_aec"],Duration:2147483647}
+	{Radius:1.8,Particle:"crit",Tags:["stellarity.void_fishing_aec"],Duration:2147483647}
 
 execute if biome ~ ~ ~ stellarity:sculk_growth run \
 	summon area_effect_cloud ~ ~ ~ \
