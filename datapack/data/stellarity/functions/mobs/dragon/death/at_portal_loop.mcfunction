@@ -2,6 +2,7 @@ tag @s add stellarity.at_portal
 tag @s remove stellarity.to_portal
 
 data merge entity @s {DragonPhase:6,Invulnerable:0b}
+execute as @s run function stellarity:mobs/dragon/invulnerability/apply
 
 execute rotated as @s run tp @s 0 67 0 ~ ~
 
