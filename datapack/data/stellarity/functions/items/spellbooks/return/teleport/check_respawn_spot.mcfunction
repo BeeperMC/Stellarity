@@ -1,3 +1,5 @@
+tellraw @a[tag=stellarity.debug] "spellbooks/return/teleport/check_respawn_spot"
+
 forceload add ~ ~
 
 scoreboard players set #continue stellarity.misc 1

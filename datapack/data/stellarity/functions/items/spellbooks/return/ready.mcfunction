@@ -1,3 +1,5 @@
+tellraw @a[tag=stellarity.debug] "spellbooks/return/ready"
+
 particle end_rod ~ ~1.22 ~ .3 .55 .3 0.02 11 normal @s
 particle dust 1 0 1 1 ~ ~1 ~ .3 .55 .3 0 40 normal @s
 

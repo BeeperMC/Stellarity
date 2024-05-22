@@ -1,3 +1,5 @@
+tellraw @a[tag=stellarity.debug] "spellbooks/return/use"
+
 advancement revoke @s only stellarity:events/items/spellbooks/use_return
 recipe take @s stellarity:events/spellbooks/use_return
 

@@ -1,3 +1,5 @@
+tellraw @a[tag=stellarity.debug] "spellbooks/return/teleport/teleport_player"
+
 tp @s ~ ~1 ~
 
 playsound stellarity:block.end_portal.travel ambient @s ~ ~1 ~ 1 1
