@@ -17,6 +17,9 @@ function stellarity:items/spellbooks/return/rotate with storage stellarity:temp 
 # Stop if player moved
 execute unless entity @a[distance=..0.1] run function stellarity:items/spellbooks/return/stop
 
+# Stop if player is no longer holding
+execute unless entity @a[distance=..0.1,predicate=stellarity:items/holding/spellbooks/return] run function stellarity:items/spellbooks/return/stop
+
 execute if score @s stellarity.misc matches ..20 run particle enchant ~ ~1.2 ~ 0 0 0 1.5 1 force
 execute if score @s stellarity.misc matches 21..40 run particle enchant ~ ~1.2 ~ 0 0 0 1.6 2 force
 execute if score @s stellarity.misc matches 41..60 run particle enchant ~ ~1.2 ~ 0 0 0 1.7 3 force
