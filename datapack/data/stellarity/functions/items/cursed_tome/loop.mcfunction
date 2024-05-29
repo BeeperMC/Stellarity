@@ -19,7 +19,6 @@ execute if entity @s[advancements={stellarity:cursed_tome/spellbooks/conveyance=
 execute if entity @s[advancements={stellarity:cursed_tome/spellbooks/light=true}] run function stellarity:items/cursed_tome/update/spellbooks/light
 execute if entity @s[advancements={stellarity:cursed_tome/spellbooks/updraft=true}] run function stellarity:items/cursed_tome/update/spellbooks/updraft
 execute if entity @s[advancements={stellarity:cursed_tome/trinkets/crest_of_the_end=true}] run function stellarity:items/cursed_tome/update/trinkets/crest_of_the_end
-execute if entity @s[advancements={stellarity:cursed_tome/trinkets/duskberry=true}] run function stellarity:items/cursed_tome/update/trinkets/duskberry
 execute if entity @s[advancements={stellarity:cursed_tome/trinkets/ender_insignia=true}] run function stellarity:items/cursed_tome/update/trinkets/ender_insignia
 execute if entity @s[advancements={stellarity:cursed_tome/trinkets/starstruck_carcanet=true}] run function stellarity:items/cursed_tome/update/trinkets/starstruck_carcanet
 execute if entity @s[advancements={stellarity:cursed_tome/stella=true}] run function stellarity:items/cursed_tome/update/stella

@@ -181,21 +181,6 @@
 			]
 		},
 		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "stellarity:items/trinkets/duskberry"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.5714
-				}
-			]
-		},
-		{
 			"rolls": {
 				"min": -3,
 				"max": 1
