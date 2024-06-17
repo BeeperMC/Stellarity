@@ -29,6 +29,8 @@ advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=fals
 # Wonderful! Like ancient forces of darkness were always supposed to 
 # just miraculously connect some random trash into things that are a lot better!
 execute as @e[type=marker,tag=stellarity.altar_of_accursed,tag=!stellarity.aota_activated] at @s run function stellarity:mechanics/altar_of_accursed/activate/animation
+# barebones version of the first kill animation for respawning dragon blade
+execute as @e[type=marker,tag=stellarity.altar_of_accursed,tag=stellarity.aota_activated] at @s run function stellarity:mechanics/altar_of_accursed/activate/redeath
 
 # 500 seconds is 8 minutes 20 seconds
 scoreboard players set #stellarity.dragon.ash_duration stellarity.misc 500
